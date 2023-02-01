@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="mqtt">
+      <UniqueIdentifier>{83877662-ece3-4cd5-b6be-018d46e10d92}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="user_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="user_clientwnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="user_lib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="user_mqttfunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="user_mqtthub.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mqtt\MQTTClient.c">
+      <Filter>mqtt</Filter>
+    </ClCompile>
+    <ClCompile Include="mqtt\MQTTConnectClient.c">
+      <Filter>mqtt</Filter>
+    </ClCompile>
+    <ClCompile Include="mqtt\MQTTConnectServer.c">
+      <Filter>mqtt</Filter>
+    </ClCompile>
+    <ClCompile Include="mqtt\MQTTDeserializePublish.c">
+      <Filter>mqtt</Filter>
+    </ClCompile>
+    <ClCompile Include="mqtt\MQTTFormat.c">
+      <Filter>mqtt</Filter>
+    </ClCompile>
+    <ClCompile Include="mqtt\MQTTPacket.c">
+      <Filter>mqtt</Filter>
+    </ClCompile>
+    <ClCompile Include="mqtt\MQTTport.c">
+      <Filter>mqtt</Filter>
+    </ClCompile>
+    <ClCompile Include="mqtt\MQTTSerializePublish.c">
+      <Filter>mqtt</Filter>
+    </ClCompile>
+    <ClCompile Include="mqtt\MQTTSubscribeClient.c">
+      <Filter>mqtt</Filter>
+    </ClCompile>
+    <ClCompile Include="mqtt\MQTTSubscribeServer.c">
+      <Filter>mqtt</Filter>
+    </ClCompile>
+    <ClCompile Include="mqtt\MQTTUnsubscribeClient.c">
+      <Filter>mqtt</Filter>
+    </ClCompile>
+    <ClCompile Include="mqtt\MQTTUnsubscribeServer.c">
+      <Filter>mqtt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="user_clientwnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="user_lib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="user_mqttfunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="user_mqtthub.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mqtt\MQTTClient.h">
+      <Filter>mqtt</Filter>
+    </ClInclude>
+    <ClInclude Include="mqtt\MQTTConnect.h">
+      <Filter>mqtt</Filter>
+    </ClInclude>
+    <ClInclude Include="mqtt\MQTTFormat.h">
+      <Filter>mqtt</Filter>
+    </ClInclude>
+    <ClInclude Include="mqtt\MQTTPacket.h">
+      <Filter>mqtt</Filter>
+    </ClInclude>
+    <ClInclude Include="mqtt\MQTTport.h">
+      <Filter>mqtt</Filter>
+    </ClInclude>
+    <ClInclude Include="mqtt\MQTTPublish.h">
+      <Filter>mqtt</Filter>
+    </ClInclude>
+    <ClInclude Include="mqtt\MQTTSubscribe.h">
+      <Filter>mqtt</Filter>
+    </ClInclude>
+    <ClInclude Include="mqtt\MQTTUnsubscribe.h">
+      <Filter>mqtt</Filter>
+    </ClInclude>
+    <ClInclude Include="mqtt\StackTrace.h">
+      <Filter>mqtt</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
